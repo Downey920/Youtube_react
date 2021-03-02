@@ -6,7 +6,6 @@ const Search = props => {
   const handleSearch = () => {
     const value = inputRef.current.value;
     props.onSearch(value);
-    inputRef.current.value = "";
   };
   const onClick = () => {
     handleSearch();

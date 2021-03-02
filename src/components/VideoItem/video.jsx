@@ -1,18 +1,22 @@
 import React from "react";
 import styles from "./video.module.css";
 
-const Video = ({ video: { snippet } }) => {
+const Video = props => {
+  const displayType = props.display === "list" ? styles.list : styles.grid;
   return (
-    <li className={styles.container}>
+    <li
+      className={`${styles.container} ${displayType}`}
+      onClick={() => props.onVideoClick(props.video)}
+    >
       <div className={styles.video}>
         <img
           className={styles.thumbnail}
-          src={snippet.thumbnails.medium.url}
+          src={props.video.snippet.thumbnails.medium.url}
           alt="video_thumbnail"
         />
         <div className={styles.metadata}>
-          <p className={styles.title}>{snippet.title}</p>
-          <p className={styles.channel}>{snippet.channelTitle}</p>
+          <p className={styles.title}>{props.video.snippet.title}</p>
+          <p className={styles.channel}>{props.video.snippet.channelTitle}</p>
         </div>
       </div>
     </li>
