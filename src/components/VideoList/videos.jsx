@@ -6,7 +6,7 @@ const Videos = props => {
   return (
     <ul className={styles.videos}>
       {props.videos.map(video => {
-        return <Video key={video.id} video={video} />;
+        return <Video key={video.etag} video={video} />;
       })}
     </ul>
   );
