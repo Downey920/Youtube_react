@@ -17,7 +17,7 @@ Visual Studio Code
 Responsive
 
 ## 유튜브 기본 메인 화면
-Youtube Data APIs를 통해 현재 유튜브에서 가장 조회수가 많은 영상들이 업로드된 상태의 화면
+Youtube Data APIs를 통해 현재 유튜브에서 가장 조회수가 많은 영상들이 업로드된 상태의 화면(화면의 크기에 따라 반응형으로 구현)
 
 ![image](https://user-images.githubusercontent.com/71444930/109923655-6bfbc200-7d02-11eb-89ca-12ccfc38247c.png)
 
