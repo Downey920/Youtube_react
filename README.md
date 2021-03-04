@@ -27,4 +27,9 @@ Youtube Data APIs를 통해 현재 유튜브에서 가장 조회수가 많은 �
 동영상은 Youtube IFrame Player API를 받아 설정 했기 때문에 실제 Youtube 동영상 플레이어와 똑같이 기능한다.
 ![image](https://user-images.githubusercontent.com/71444930/109938234-2398d000-7d13-11eb-9e5f-85290ed17d39.png)
 
+## 검색할 경우
+이런식으로 Youtube Data API -> search에서 list (by keyword)를 사용해 검색 키워드와 관련 동영상들이 화면에 업로드 된다.
+![image](https://user-images.githubusercontent.com/71444930/109938958-ea149480-7d13-11eb-8bc9-4193f911fd21.png)
+
+
 
