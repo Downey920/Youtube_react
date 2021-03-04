@@ -32,3 +32,9 @@
   padding: 0.5em 0.2em;
   height: 100%;
 }
+
+@media screen and (max-width: 48rem) {
+  .header {
+    font-size: 0.7rem;
+  }
+}

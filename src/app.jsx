@@ -10,22 +10,26 @@ const App = props => {
 
   const selectVideo = video => {
     setSelectedVideo(video);
+    window.scrollTo(0, 0);
   };
 
-  const search = query => {
-    props.youtube
-      .search(query) //
-      .then(videos => {
-        setVideos(videos);
-        setSelectedVideo(null);
-      });
-  };
+  const search = useCallback(
+    query => {
+      props.youtube
+        .search(query) //
+        .then(videos => {
+          setVideos(videos);
+          setSelectedVideo(null);
+        });
+    },
+    [props.youtube]
+  );
 
   useEffect(() => {
     props.youtube
       .mostPopular() //
       .then(setVideos);
-  }, []);
+  }, [props.youtube]);
 
   return (
     <div className={styles.app}>

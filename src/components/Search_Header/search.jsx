@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
+import React, { memo, useRef } from "react";
 import styles from "./search.module.css";
 
-const Search = props => {
+const Search = memo(props => {
   const inputRef = useRef();
   const handleSearch = () => {
     const value = inputRef.current.value;
@@ -38,6 +38,6 @@ const Search = props => {
       </button>
     </header>
   );
-};
+});
 
 export default Search;
