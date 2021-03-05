@@ -1,25 +1,25 @@
 ## Link URL
 https://downey920.github.io/Youtube_react/
 # Youtube by React
-<h2 style="color:red">Stack & Tools<h2 />
+<h2 style="color:red;">Stack & Tools<h2/>
 <ul>
-  <li>HTML<li />
-  <li>CSS<li />
-  <li>JavaScript<li />
-  <li>React<li />
-  <li>React-Hooks<li />
-  <li>Youtube Data APIs<li />
-  <li>Youtube IFrame Player API<li />
-  <li>Postman<li />
-  <li>Create-react-app(BABEL, ESLint, Webpack, PostCSS...)<li />
-  <li>Cmder<li />
-  <li>Git<li />
-  <li>GitHub<li />
-  <li>Yarn<li />
-  <li>React Developer Tools<li />
-  <li>Visual Studio Code<li />
-  <li>Responsive<li />
-<ul />
+  <li>HTML<li/>
+  <li>CSS<li/>
+  <li>JavaScript<li/>
+  <li>React<li/>
+  <li>React-Hooks<li/>
+  <li>Youtube Data APIs<li/>
+  <li>Youtube IFrame Player API<li/>
+  <li>Postman<li/>
+  <li>Create-react-app(BABEL, ESLint, Webpack, PostCSS...)<li/>
+  <li>Cmder<li/>
+  <li>Git<li/>
+  <li>GitHub<li/>
+  <li>Yarn<li/>
+  <li>React Developer Tools<li/>
+  <li>Visual Studio Code<li/>
+  <li>Responsive<li/>
+<ul/>
   
 ## 유튜브 기본 메인 화면
 Youtube Data APIs를 통해 현재 유튜브에서 가장 조회수가 많은 영상들이 업로드된 상태의 화면(화면의 크기에 따라 반응형으로 구현)
