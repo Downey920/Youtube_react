@@ -19,6 +19,7 @@ https://downey920.github.io/Youtube_react/
   <li>React Developer Tools
   <li>Visual Studio Code
   <li>Responsive
+<ul/>
   
 ## 유튜브 기본 메인 화면
 Youtube Data APIs를 통해 현재 유튜브에서 가장 조회수가 많은 영상들이 업로드된 상태의 화면(화면의 크기에 따라 반응형으로 구현)
