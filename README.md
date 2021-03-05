@@ -3,8 +3,8 @@ https://downey920.github.io/Youtube_react/
 # Youtube by React
 <h2 style="color:red;">Stack & Tools<h2/>
 <ul>
-  <li>HTML<li/>
-  <li>CSS<li/>
+  <li>HTML
+  <li>CSS
   <li>JavaScript<li/>
   <li>React<li/>
   <li>React-Hooks<li/>
