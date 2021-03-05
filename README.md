@@ -5,20 +5,20 @@ https://downey920.github.io/Youtube_react/
 <ul>
   <li>HTML
   <li>CSS
-  <li>JavaScript<li/>
-  <li>React<li/>
-  <li>React-Hooks<li/>
-  <li>Youtube Data APIs<li/>
-  <li>Youtube IFrame Player API<li/>
-  <li>Postman<li/>
-  <li>Create-react-app(BABEL, ESLint, Webpack, PostCSS...)<li/>
-  <li>Cmder<li/>
-  <li>Git<li/>
-  <li>GitHub<li/>
-  <li>Yarn<li/>
-  <li>React Developer Tools<li/>
-  <li>Visual Studio Code<li/>
-  <li>Responsive<li/>
+  <li>JavaScript
+  <li>React
+  <li>React-Hooks
+  <li>Youtube Data APIs
+  <li>Youtube IFrame Player API
+  <li>Postman
+  <li>Create-react-app(BABEL, ESLint, Webpack, PostCSS...)
+  <li>Cmder
+  <li>Git
+  <li>GitHub
+  <li>Yarn
+  <li>React Developer Tools
+  <li>Visual Studio Code
+  <li>Responsive
 <ul/>
   
 ## 유튜브 기본 메인 화면
