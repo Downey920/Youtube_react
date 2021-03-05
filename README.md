@@ -37,7 +37,8 @@ Youtube Data APIs를 통해 현재 유튜브에서 가장 조회수가 많은 �
 
 ## 검색할 경우
 Youtube Data API -> search에서 list (by keyword)를 사용해 검색 키워드와 관련 동영상들이 화면에 업로드 되게끔 구현했다.
-![image](https://user-images.githubusercontent.com/71444930/109938958-ea149480-7d13-11eb-8bc9-4193f911fd21.png)
+![image](https://user-images.githubusercontent.com/71444930/110078845-aa10e880-7dcb-11eb-9c71-a9395aeb5ffd.png)
+
 
 
 
